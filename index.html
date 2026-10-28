@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Privacy policy for TileTales - Slide Your Time Away, a picture sliding puzzle game by koidafish.">
+<meta name="theme-color" content="#F2F6F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1714" media="(prefers-color-scheme: dark)">
+<title>TileTales Privacy Policy</title>
+<style>
+/* Colours match the TileTales game (www/index.html and godot/scripts/palette.gd). */
+:root {
+  --bg: #F2F6F2; --fg: #17352E; --muted: #61776F; --panel: #FFFFFF; --line: #D5E2DB;
+  --well: #E0EAE4; --accent: #087F67; --accent-ink: #FFFFFF;
+  --body: "Segoe UI", Roboto, "Noto Sans", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0F1714; --fg: #E2ECE8; --muted: #92A39D; --panel: #16201C; --line: #2F3D37;
+    --well: #1B2622; --accent: #3CCB9F; --accent-ink: #082019; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0F1714; --fg: #E2ECE8; --muted: #92A39D; --panel: #16201C; --line: #2F3D37;
+  --well: #1B2622; --accent: #3CCB9F; --accent-ink: #082019; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: radial-gradient(ellipse at 50% -8%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 58%) no-repeat, var(--bg);
+  color: var(--fg); font: 16px/1.65 var(--body); -webkit-text-size-adjust: 100%;
+}
+main { max-width: 760px; margin: 0 auto; padding: max(28px, env(safe-area-inset-top)) 16px 56px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+.mark {
+  flex: none; width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center;
+  background: linear-gradient(145deg, #1ca884, #08745f); color: #fff; font-size: 22px; box-shadow: 0 6px 16px #087f6740;
+}
+h1 { margin: 0; font-size: clamp(1.6rem, 5vw, 2.1rem); line-height: 1.15; letter-spacing: -.02em; }
+.sub { margin: 2px 0 0; color: var(--muted); }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 26px; }
+.chip { padding: 4px 11px; border-radius: 999px; font-size: .8rem; font-weight: 700; color: var(--accent); background: color-mix(in srgb, var(--accent) 13%, transparent); }
+.summary { padding: 18px 20px; border: 1px solid var(--line); border-radius: 18px; background: var(--panel); box-shadow: 0 8px 24px #17352e0d; }
+.summary h2 { margin-top: 0; }
+.summary ul { margin: 0; padding-left: 1.2em; }
+.summary li + li { margin-top: 6px; }
+nav.toc { margin: 26px 0 8px; padding: 14px 18px; border-radius: 16px; background: var(--well); }
+nav.toc ol { margin: 6px 0 0; padding-left: 1.3em; columns: 2 220px; column-gap: 28px; }
+nav.toc a { color: var(--fg); }
+h2 { font-size: 1.25rem; margin: 34px 0 8px; letter-spacing: -.01em; scroll-margin-top: 16px; }
+h3 { font-size: 1.02rem; margin: 20px 0 4px; }
+p, li { overflow-wrap: anywhere; }
+a { color: var(--accent); }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
+table { width: 100%; border-collapse: collapse; font-size: .93rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+tr:last-child td { border-bottom: 0; }
+th { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); background: var(--well); }
+.contact { margin-top: 12px; padding: 16px 18px; border-radius: 16px; border: 1px solid var(--line); background: var(--panel); }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="mark" aria-hidden="true">✦</div>
+    <div>
+      <h1>TileTales Privacy Policy</h1>
+      <p class="sub">TileTales - Slide Your Time Away, by koidafish</p>
+    </div>
+  </header>
+  <div class="meta"><span class="chip">Effective October 28, 2026</span><span class="chip">Last updated October 28, 2026</span></div>
+
+  <section class="summary" aria-labelledby="summary">
+    <h2 id="summary">The short version</h2>
+    <ul>
+      <li>TileTales has no accounts, and we don't run any servers that receive your data.</li>
+      <li>Your game progress and settings are saved only on your device.</li>
+      <li>Photos you choose for a puzzle stay on your device and are never uploaded.</li>
+      <li>The free version shows ads from Google AdMob. Google collects some device data, such as your advertising ID, to show and measure ads. In the EEA, UK and Switzerland we ask for your consent first.</li>
+      <li>You can change your ad choices in the game's Settings (where offered) or in your Android settings.</li>
+    </ul>
+  </section>
+
+  <nav class="toc" aria-label="Contents">
+    <strong>Contents</strong>
+    <ol>
+      <li><a href="#who">Who we are</a></li>
+      <li><a href="#collect">Information the game uses</a></li>
+      <li><a href="#ads">Advertising (Google AdMob)</a></li>
+      <li><a href="#permissions">Device permissions</a></li>
+      <li><a href="#choices">Your choices</a></li>
+      <li><a href="#retention">How long data is kept</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#rights">Your privacy rights</a></li>
+      <li><a href="#security">Security and transfers</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="who">1. Who we are</h2>
+  <p>TileTales - Slide Your Time Away ("TileTales", "the game") is a picture sliding puzzle game for Android, published by koidafish ("we", "us"). This policy explains what information the game uses, why, and the choices you have. It applies to the TileTales app and to this page.</p>
+
+  <h2 id="collect">2. Information the game uses</h2>
+  <h3>Stored only on your device</h3>
+  <p>To let you continue where you left off, the game saves the following in its private storage on your device:</p>
+  <ul>
+    <li>your current puzzle (piece positions, moves and time), the picture you are playing and the levels you have unlocked;</li>
+    <li>your settings: theme (System, Light or Dark), sound effects, vibration and whether piece numbers are shown.</li>
+  </ul>
+  <p>This information never leaves your device and is not sent to us or anyone else.</p>
+
+  <h3>Your own photos</h3>
+  <p>If you tap <strong>Use my own photo</strong>, Android's file picker lets you choose one image. The game crops it to a square, keeps a copy in its private storage so you can resume the puzzle, and uses it only to create that puzzle. The photo is never uploaded or shared. The game can only open the image you pick; it cannot browse your other photos.</p>
+
+  <h3>What we don't collect</h3>
+  <p>We don't ask for your name, email address, contacts, precise location or any account details, and the game contains no analytics of our own. We don't sell your personal information.</p>
+
+  <h2 id="ads">3. Advertising (Google AdMob)</h2>
+  <p>TileTales is free and is supported by ads from <strong>Google AdMob</strong>, provided by Google LLC (or Google Ireland Limited for users in the EEA and Switzerland). The game shows:</p>
+  <ul>
+    <li>a <strong>banner ad</strong> at the bottom of the main screen;</li>
+    <li>an optional <strong>rewarded video ad</strong>, which you can choose to watch to unlock the next puzzle level early. Watching is always optional; every level can also be unlocked for free by solving puzzles.</li>
+  </ul>
+  <p>To show, measure and protect these ads, the Google Mobile Ads SDK in the game automatically collects information from your device and sends it to Google. We don't receive this information in a form that identifies you.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Data collected by Google</th><th>Used for</th></tr></thead>
+      <tbody>
+        <tr><td>Advertising ID (Android advertising identifier)</td><td>Showing and limiting ads, measuring ad performance, and personalised ads where you have allowed them</td></tr>
+        <tr><td>IP address, which also gives an approximate location (such as country or city)</td><td>Choosing ads suitable for your region, fraud prevention and security</td></tr>
+        <tr><td>Device and app information: device model, operating system, language, app version</td><td>Delivering ads that work on your device; analytics and diagnostics for the ad service</td></tr>
+        <tr><td>Ad interactions: ads shown, taps, and whether a rewarded video was completed</td><td>Measuring ads, granting your reward, and preventing fraud</td></tr>
+        <tr><td>Diagnostic information, such as crash logs from the ads SDK</td><td>Keeping the ad service stable</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Google uses this information as described in its policies: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. Google may share data with its advertising partners and with ad technology providers as described in those policies.</p>
+  <h3>Consent in the EEA, UK and Switzerland</h3>
+  <p>If you are in the European Economic Area, the United Kingdom or Switzerland, the game shows Google's consent message (using Google's User Messaging Platform) before ads are requested. You can accept or decline personalised ads; if you decline, you may still see non-personalised ads, which are based on context such as the app and your general location rather than your profile. You can change your choice at any time from <strong>Settings → Privacy choices</strong> in the game.</p>
+
+  <h2 id="permissions">4. Device permissions</h2>
+  <ul>
+    <li><strong>Internet and network state:</strong> to load ads. The puzzles themselves work offline.</li>
+    <li><strong>Advertising ID</strong> (<code>AD_ID</code>), added by the Google Mobile Ads SDK: so Google can use your advertising identifier as described above.</li>
+    <li><strong>Vibrate:</strong> for the optional light vibration on moves. You can turn it off in Settings.</li>
+  </ul>
+  <p>The game does not request access to your camera, microphone, contacts or location. Choosing a photo uses Android's system picker, which gives the game access only to the image you select.</p>
+
+  <h2 id="choices">5. Your choices</h2>
+  <ul>
+    <li><strong>Ad consent (EEA, UK, Switzerland):</strong> change it any time in the game under Settings → Privacy choices.</li>
+    <li><strong>Advertising ID:</strong> on Android, go to <em>Settings → Google → Ads</em> (or <em>Settings → Privacy → Ads</em>) to reset or delete your advertising ID. When it's deleted, apps can no longer use it for personalised ads.</li>
+    <li><strong>Google ad personalisation:</strong> manage it at <a href="https://myadcenter.google.com/" rel="noopener">My Ad Center</a>.</li>
+    <li><strong>Data on your device:</strong> clear the game's data in Android's app settings, or uninstall the game, to delete your saved progress, settings and any photo you used.</li>
+  </ul>
+
+  <h2 id="retention">6. How long data is kept</h2>
+  <p>Data saved on your device stays there until you clear the game's data or uninstall it. We don't keep copies. Data collected by Google for ads is kept according to <a href="https://policies.google.com/technologies/retention" rel="noopener">Google's retention policy</a>.</p>
+
+  <h2 id="children">7. Children</h2>
+  <p>TileTales is a general-audience game and is not directed at children under 13. We don't knowingly collect personal information from children. If you are a parent or guardian and believe a child has provided personal information through the game, please contact us and we will help, including by asking Google to delete ad data where possible.</p>
+
+  <h2 id="rights">8. Your privacy rights</h2>
+  <p>Depending on where you live, laws such as the GDPR, the UK GDPR and the California Consumer Privacy Act (CCPA/CPRA) give you rights to access, correct, delete or move your personal information, to object to or restrict its use, and to withdraw consent.</p>
+  <ul>
+    <li>Because we don't hold personal information about you on any server, most requests are fulfilled by the device controls in section 5.</li>
+    <li>For data collected by Google for ads, use Google's tools linked above or contact Google directly.</li>
+    <li>You can always contact us with a question or request; we will reply within 30 days. You also have the right to complain to your local data protection authority.</li>
+  </ul>
+  <p>For users in the EEA and UK, the legal basis for personalised ads is your consent; for non-personalised ads, fraud prevention and security it is our legitimate interest in providing a free, ad-supported game.</p>
+
+  <h2 id="security">9. Security and international transfers</h2>
+  <p>Saved game data stays in the app's private storage, which other apps cannot read. Google may process ad data on servers in the United States and other countries, protected by safeguards such as the EU Standard Contractual Clauses, as described in Google's policies.</p>
+
+  <h2 id="changes">10. Changes to this policy</h2>
+  <p>If the game changes what information it uses, for example by adding new features or ad partners, we will update this page and the dates at the top. Significant changes will also be noted in the game's release notes on Google Play.</p>
+
+  <h2 id="contact">11. Contact us</h2>
+  <div class="contact">
+    <p style="margin:0"><strong>koidafish</strong><br>
+    Email: <a href="mailto:koidafish1997@gmail.com">koidafish1997@gmail.com</a></p>
+  </div>
+
+  <footer>© 2026 koidafish. TileTales - Slide Your Time Away.</footer>
+</main>
+</body>
+</html>
